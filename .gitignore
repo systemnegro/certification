@@ -4,6 +4,12 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Docker
+docker-compose.yml
+
+# Arquivo de log específico
+replay_pid*.log
+
 ### STS ###
 .apt_generated
 .classpath
